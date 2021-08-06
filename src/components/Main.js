@@ -128,7 +128,7 @@ const Main = () => {
   };
 
   return (
-    <Layout className="layout">
+  <Layout className="layout">
     <Header>
       <div className="logo" />
       <Menu theme="dark" mode="horizontal" onSelect={menuSelected}>
@@ -151,7 +151,7 @@ const Main = () => {
         </Slate>
       </div>
     </Content>
-    <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
+    <Footer style={{ textAlign: 'center' }}>Devbuild&copy;2021 Created by Holowizor</Footer>
     <Modal title="Basic Modal" visible={isModalVisible} onOk={saveScrap} onCancel={handleCancel}>
       <Form onSubmit={saveScrap}>
         <Form.Item label="Name" rules={[{ required: true }]}>
